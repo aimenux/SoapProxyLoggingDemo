@@ -49,7 +49,6 @@ public static class Extensions
         var timeout = TimeSpan.FromMinutes(1);
         var isHttpsBinding = settings.Endpoint.StartsWith("https", StringComparison.OrdinalIgnoreCase);
         HttpBindingBase binding = isHttpsBinding ? new BasicHttpsBinding() : new BasicHttpBinding();
-        binding.Name = settings.BindingName;
         binding.ReceiveTimeout = timeout;
         binding.SendTimeout = timeout;
         return binding;

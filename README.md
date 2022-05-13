@@ -1,3 +1,5 @@
+[![.NET](https://github.com/aimenux/SoapProxyLoggingDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/SoapProxyLoggingDemo/actions/workflows/ci.yml)
+
 # SoapProxyLoggingDemo
 ```
 Logging soap requests/responses in xml
